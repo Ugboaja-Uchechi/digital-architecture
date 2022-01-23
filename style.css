@@ -30,12 +30,12 @@ body {
 }
 
 .socials {
-  display: block;
   color: #fff;
   transform: rotate(270deg);
   margin: 8rem 1rem;
+  margin-bottom: 0;
   text-transform: uppercase;
-  padding: 5px 15px;
+  /* padding: 5px 15px; */
   letter-spacing: 6px;
 }
 
@@ -53,6 +53,17 @@ body {
 
 .colour {
   color: #fff;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* .image {
