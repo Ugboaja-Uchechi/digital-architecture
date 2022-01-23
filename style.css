@@ -16,6 +16,45 @@ body {
   padding: 0px 2rem;
 }
 
+.main {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 50vh;
+}
+
+.main-flex {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: flex-end;
+}
+
+.socials {
+  display: block;
+  color: #fff;
+  transform: rotate(270deg);
+  margin: 8rem 1rem;
+  text-transform: uppercase;
+  padding: 5px 15px;
+  letter-spacing: 6px;
+}
+
+/* .socials p {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  margin: 0 0 10px 0;
+  line-height: 24px;
+} */
+
+.h1 {
+  margin-bottom: 0
+}
+
+.colour {
+  color: #fff;
+}
+
 /* .image {
   height: 100vh;
   background-image: url(./images/house.jpg);
